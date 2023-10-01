@@ -146,7 +146,7 @@ function ejercicio4() {
 
     //Calculamos el IGV
     resultado = (precio * cantidad) * IGV;
-    escribir("El IGV de: " + cantidad + " productos que cuestan " + precio + " es de: " + resultado);
+    escribir("El IGV de " + cantidad + " productos que cuestan " + precio + " es de: " + resultado);
 }
 
 
@@ -310,7 +310,7 @@ function ejercicio10() {
     area = PI * Math.pow(radio, 2);
 
     //Mostramos el resultado
-    escribir("El area de un circulo con radio " + radio + "es: " + area);
+    escribir("El area de un circulo con radio " + radio + " es: " + area);
 }
 
 
