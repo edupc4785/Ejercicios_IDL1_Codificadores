@@ -111,11 +111,11 @@ function ejercicio3() {
         escribir("El numero es: " + num1);
         num2 = parseInt(prompt("Ingresa el potenciador"));
         escribir("El potenciador es: " + num2);
-        resultado = math.pow(num1 ,num2);
+        resultado = Math.pow(num1 ,num2);
     } else if (operacion == "raiz") {
         num1 = parseInt(prompt("Ingresa el numero"));
         escribir("El numero es: " + num1);
-        resultado = math.sqrt(num1, 2);
+        resultado = Math.sqrt(num1, 2);
 
         //Limitamos los decimales
         resultado = resultado.toFixed(3);
@@ -126,7 +126,7 @@ function ejercicio3() {
 
 
     //Mostramos el resultado
-    escribir("El resultado de esta" + operacion + " es: " + resultado);
+    escribir("El resultado de esta " + operacion + " es: " + resultado);
 }
 
 function ejercicio4() {
@@ -161,7 +161,7 @@ function ejercicio5() {
     escribir("Una ama de casa va al mercado y compra arroz, leche y sal ¿Cuanto fue el gasto que realizó?");
 
     //Declaramos las variables
-    let arroz, leche, sal, resultado;
+    let arroz, leche, sal, gasto;
 
     //Pedimos los datos, los guardamos e imprimimos
     arroz = parseInt(prompt("Ingresa el precio del arroz"));
@@ -175,7 +175,7 @@ function ejercicio5() {
     gasto = (arroz + leche + sal);
 
     //Mostramos el resultado
-    escribir("El resultado por la compra de arroz, leche y sal es: " + resultado);
+    escribir("El resultado por la compra de arroz, leche y sal es: " + gasto);
 }
 
 function ejercicio6() {
