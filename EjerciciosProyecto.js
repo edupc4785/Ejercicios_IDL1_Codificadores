@@ -264,10 +264,10 @@ function ejercicio9() {
     let peso, estatura, imc, estado;
 
     //Pedimos los datos, los guardamos e imprimimos
-    peso = parseFloat(prompt("Ingresa tu peso"));
-    escribir("Tu peso es: " + peso);
-    estatura = parseFloat(prompt("Ingresa tu estatura"));
-    escribir("Tu estatura es: " + estatura);
+    peso = parseFloat(prompt("Ingresa tu peso en kg"));
+    escribir("Tu peso es: " + peso + "kg");
+    estatura = parseFloat(prompt("Ingresa tu estatura en metros"));
+    escribir("Tu estatura es: " + estatura + "m");
 
     //Calculamos el IMC
     imc = peso / (Math.pow(estatura, 2));
