@@ -312,5 +312,3 @@ function ejercicio10() {
     //Mostramos el resultado
     escribir("El area de un circulo con radio " + radio + " es: " + area);
 }
-
-
