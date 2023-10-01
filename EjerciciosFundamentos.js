@@ -175,7 +175,7 @@ function ejercicio5() {
     gasto = (arroz + leche + sal);
 
     //Mostramos el resultado
-    console.log("El resultado por la compra de arroz, leche y sal es: " + resultado);
+    escribir("El resultado por la compra de arroz, leche y sal es: " + resultado);
 }
 
 function ejercicio6() {
