@@ -139,7 +139,7 @@ function ejercicio4() {
     let precio, cantidad, resultado;
 
     //Pedimos los datos, los guardamos e imprimimos
-    precio = parseInt(prompt("Ingresa el precio del producto"));
+    precio = parseFloat(prompt("Ingresa el precio del producto"));
     escribir("El precio del producto es: " + precio);
     cantidad = parseInt(prompt("Ingresa la cantidad"));
     escribir("La cantidad es: " + cantidad);
@@ -226,7 +226,7 @@ function ejercicio7() {
     pago = (horasLaboradas * valorHora) * diasLaborados;
 
     //Mostramos el resultado
-    escribir("El pago por trabajar"+ diasLaborados + " dias y " + horasLaboradas + " horas laboradas es: " + pago);
+    escribir("El pago por trabajar "+ diasLaborados + " dias y " + horasLaboradas + " horas laboradas es: " + pago);
 }
 
 function ejercicio8() {
