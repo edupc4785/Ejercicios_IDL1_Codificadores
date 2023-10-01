@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css" >
+    <title>Ejercicios de Proyecto Productivo</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="logo del Instituto Continental">
+        <h1>Ejercicios de Proyecto Productivo</h1>
+    </header>
+
+    <main>
+        <div class = "form">
+            <div class = "options">
+                <label for="ejercicios">Elije un ejercicio:</label>
+                <select name="ejercicios" id="ejercicios">
+                    <option value="ejercicio1">Ejercicio 1 - Nombre y fecha de nacimiento</option>
+                    <option value="ejercicio2">Ejercicio 2 - Suma o resta de dos números</option>
+                    <option value="ejercicio3">Ejercicio 3 - Multiplicacion o division de dos números</option>
+                    <option value="ejercicio4">Ejercicio 4 - Calculo del IGV</option>
+                    <option value="ejercicio5">Ejercicio 5 - Promedio de edades</option>
+                    <option value="ejercicio6">Ejercicio 6 - Calculo del gasto por la comprar Articulos</option>
+                    <option value="ejercicio7">Ejercicio 7 - Calculo de pago por horas trabajadas</option>
+                    <option value="ejercicio8">Ejercicio 8 - Calculo de la hipotenusa</option>
+                    <option value="ejercicio9">Ejercicio 9 - Calculo del IMC</option>
+                    <option value="ejercicio10">Ejercicio 10 - Calculo del area de un circulo</option>
+                </select>
+            </div>
+            <button id="ejecutar" onclick="ejecutar()">Ejecutar</button>
+        </div>
+
+        <h2>Ejercicio<span id="ejercicio">s</span></h2>
+        <div id="divEjercicio">
+        </div>
+    </main>
+
+    <script src="Ejercicios.js"></script>
+</body>
+</html>
