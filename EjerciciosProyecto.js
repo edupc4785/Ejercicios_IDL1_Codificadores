@@ -270,7 +270,7 @@ function ejercicio9() {
     escribir("Tu estatura es: " + estatura);
 
     //Calculamos el IMC
-    imc = peso / (math.pow(estatura, 2));
+    imc = peso / (Math.pow(estatura, 2));
 
     //Calculamos el estado
     if (imc < 18.5) {
