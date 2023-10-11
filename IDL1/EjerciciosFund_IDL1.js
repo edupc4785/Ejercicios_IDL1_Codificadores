@@ -2,7 +2,6 @@ const activo = document.getElementsByClassName(".actived");
 const spanEjercicio = document.getElementById("ejercicio");
 const divEjercicio = document.getElementById("divEjercicio");
 
-
 function ejecutar() {
     const value = document.getElementById("ejercicios").value;
     switch (value) {
@@ -39,6 +38,7 @@ function ejecutar() {
         }
 }
 
+
 function escribir(msg) {
     divEjercicio.innerHTML += `<p>${msg}</p>`;
 }
@@ -61,7 +61,7 @@ function ejercicio1() {
     escribir("Tu nombre es: " + nombre);
     apellidos = prompt("Ingresa tus apellidos");
     escribir("Tus apellidos son: " + apellidos);
-    dni = prompt("Ingresa tu dni)");
+    dni = prompt("Ingresa tu dni");
     escribir("Tu dni es: " + dni);
 
     //Mostramos el resultado

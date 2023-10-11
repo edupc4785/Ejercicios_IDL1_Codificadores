@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css" >
+    <title>Ejercicios de Fundamentos de la programación</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="logo del Instituto Continental">
+        <h1>Ejercicios de Fundamentos de la Programación</h1>
+    </header>
+
+    <main>
+        <div class = "form">
+            <div class = "options">
+                <label for="ejercicios">Elije un ejercicio:</label>
+                <select name="ejercicios" id="ejercicios">
+                    <option value="ejercicio1">Ejercicio 1 - Nombre y DNI</option>
+                    <option value="ejercicio2">Ejercicio 2 - mayor, menor e igual</option>
+                    <option value="ejercicio3">Ejercicio 3 - Poténcia y Raiz</option>
+                    <option value="ejercicio4">Ejercicio 4 - Cálculo del area de un Triangulo</option>
+                    <option value="ejercicio5">Ejercicio 5 - Compra de productos</option>
+                    <option value="ejercicio6">Ejercicio 6 - Resultado de Exámen</option>
+                    <option value="ejercicio7">Ejercicio 7 - Promedio parciales</option>
+                    <option value="ejercicio8">Ejercicio 8 - IGV segun sueldo</option>
+                    <option value="ejercicio9">Ejercicio 9 - Área de rectángulos</option>
+                    <option value="ejercicio10">Ejercicio 10 - Calculo del volumen de esféra</option>
+                </select>
+            </div>
+            <button id="ejecutar" onclick="ejecutar()">Ejecutar</button>
+        </div>
+
+        <h2>Ejercicio<span id="ejercicio">s</span></h2>
+        <div id="divEjercicio">
+        </div>
+    </main>
+
+    <script src="EjerciciosFund_IDL3.js"></script>
+</body>
+</html>
